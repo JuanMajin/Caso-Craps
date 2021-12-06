@@ -15,7 +15,7 @@ public class Dado {
      * @return Number between (1,6)
      */
     public int getCara() {
-        Random aleatorio;= new Random();
+        Random aleatorio= new Random();
         cara= aleatorio.nextInt(6)+1;
         return cara;
     }
